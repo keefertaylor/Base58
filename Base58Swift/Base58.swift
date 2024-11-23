@@ -1,6 +1,6 @@
 // Copyright Keefer Taylor, 2019.
 
-import BigInt
+@preconcurrency import BigInt
 import Foundation
 import Crypto
 
