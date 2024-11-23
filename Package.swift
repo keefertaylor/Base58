@@ -5,7 +5,7 @@ let package = Package(
     name: "Base58Swift",
     platforms: [
         .macOS(.v10_15),
-        .ios(.v13),
+        .iOS(.v13),
     ],
     products: [
         .library(
