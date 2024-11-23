@@ -1,25 +1,24 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "BigInt",
-        "repositoryURL": "https://github.com/attaswift/BigInt.git",
-        "state": {
-          "branch": null,
-          "revision": "018a5925f60f9e0523edd261de394a0898fe95b7",
-          "version": "3.1.0"
-        }
-      },
-      {
-        "package": "SipHash",
-        "repositoryURL": "https://github.com/attaswift/SipHash",
-        "state": {
-          "branch": null,
-          "revision": "e325083424688055363bbfcb7f1a440d7d7a1bae",
-          "version": "1.2.2"
-        }
+  "originHash" : "0f727c2b567d2f9854922a6efcc01d964a34c3f005a4ec264cc20c4cc675a0f6",
+  "pins" : [
+    {
+      "identity" : "bigint",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/attaswift/BigInt.git",
+      "state" : {
+        "revision" : "a7ee11486233ba45f5ceee0b8cb3d6629ed450ef",
+        "version" : "5.5.0"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "swift-crypto",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-crypto.git",
+      "state" : {
+        "revision" : "cc76b894169a3c86b71bac10c78a4db6beb7a9ad",
+        "version" : "3.2.0"
+      }
+    }
+  ],
+  "version" : 3
 }
